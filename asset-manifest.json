@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cardflip/static/css/main.ce0bafd0.css",
-    "main.js": "/cardflip/static/js/main.587a5a42.js",
+    "main.css": "/cardflip/static/css/main.871898d3.css",
+    "main.js": "/cardflip/static/js/main.bd5c3867.js",
     "static/js/787.ee92e45e.chunk.js": "/cardflip/static/js/787.ee92e45e.chunk.js",
     "static/media/chrome.png": "/cardflip/static/media/chrome.a50a7364b8551ddfdcf8.png",
     "static/media/google.png": "/cardflip/static/media/google.c05c3879fa560c35b977.png",
@@ -10,17 +10,17 @@
     "static/media/instagram.png": "/cardflip/static/media/instagram.5c366e651530d3e6b1f5.png",
     "static/media/sharethis.png": "/cardflip/static/media/sharethis.8c69ba0b4d64a72f1799.png",
     "static/media/circle.png": "/cardflip/static/media/circle.20c790ad54cd4c6292d4.png",
+    "static/media/facebook.png": "/cardflip/static/media/facebook.0bc4751d583dff7db5d2.png",
     "static/media/messenger.png": "/cardflip/static/media/messenger.256b66f2ade7bb22930c.png",
     "static/media/youtube.png": "/cardflip/static/media/youtube.05708571272829044b08.png",
     "static/media/triangle.png": "/cardflip/static/media/triangle.8fe78e89306a2a99f6b0.png",
-    "static/media/logo.svg": "/cardflip/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cardflip/index.html",
-    "main.ce0bafd0.css.map": "/cardflip/static/css/main.ce0bafd0.css.map",
-    "main.587a5a42.js.map": "/cardflip/static/js/main.587a5a42.js.map",
+    "main.871898d3.css.map": "/cardflip/static/css/main.871898d3.css.map",
+    "main.bd5c3867.js.map": "/cardflip/static/js/main.bd5c3867.js.map",
     "787.ee92e45e.chunk.js.map": "/cardflip/static/js/787.ee92e45e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce0bafd0.css",
-    "static/js/main.587a5a42.js"
+    "static/css/main.871898d3.css",
+    "static/js/main.bd5c3867.js"
   ]
 }
