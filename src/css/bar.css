@@ -1,0 +1,13 @@
+.bar{
+    height: 12px;
+    /* background-color: rgba(255, 192, 203, 0.31); */
+  background-color: #2A1B3D;
+
+    margin-bottom: 3px;
+}
+.barinside{
+    height: 12px;
+    background-color: hotpink;
+    transition: all 1s ease-out;
+    margin: auto;
+}

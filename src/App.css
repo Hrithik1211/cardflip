@@ -1,0 +1,204 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #2A1B3D;
+}
+.console{
+  width: 30%;
+  height: 30vw;
+  margin: auto;
+  position: relative;
+  /* display: flex; */
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.consolerow{
+  margin: auto;
+  height: 50%;
+  display: flex;
+  perspective: 1000px;
+}
+.consolecardsouter{
+  position: relative;
+  margin: auto;
+  width: 49%;
+  height: 98%;
+  background-color: transparent;
+  transform-style: preserve-3d;
+}
+.consolecardsouterselect{
+  position: relative;
+  margin: auto;
+  width: 49%;
+  height: 98%;
+  background-color: transparent;
+  transform-style: preserve-3d;
+}
+.consolecards{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transition: all 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.consoleimage{
+  font-size: 48px;
+  color: white;
+  margin: auto;
+}
+.consolecardsouter:hover .consolecards{
+  cursor: pointer;
+  transform: rotateY(180deg);
+  /* width: 200%; */
+}
+.consolecardsouter:hover .consoleimage{
+  display: none;
+  cursor: pointer;
+}
+.consolecardsdes{
+  display: none;
+  height: 33.33%;
+  width: 100%;
+  color: white;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.consolecardsinfo{
+  display: none;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.consolecardsouter:hover .consolecardsinfo{
+  display: flex;
+  transform: rotateY(-180deg);
+}
+.consolecardsstart{
+  display: flex;
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.consolecardsstart:hover{
+  cursor: pointer;
+  background-color: green;
+}
+.consolecardsouter:hover .consolecardsdes{
+  display: flex;
+  transform: rotateY(-180deg);
+}
+.consolecardsdes:hover{
+  background-color: orange;
+  cursor: pointer;
+}
+p{
+  padding: 12px;
+  width: 100%;
+  text-align-last: center;
+  background-color: orange;
+}
+p:hover{
+  cursor: pointer;
+  background-color: orangered;
+}
+.startbutton{
+  padding: 12px;
+  border:none;
+}
+.startbutton:hover{
+  cursor: pointer;
+}
+.stats{
+  width: 50%;
+  height: 60%;
+  background-color: red;
+  position: relative;
+  top: -80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  color: white;
+}
+.statsimage{
+  height: 40%;
+  align-self: center;
+}
+.statsdes{
+  padding:2px;
+  text-align: center;
+  font-size: 28px;
+}
+.data{
+  position: absolute;
+  bottom:2%;
+  right: 2%;
+  border-radius: 12px;
+  background-color: rgba(128, 128, 128, 0.548);
+  color:white;
+  font-size: 12px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+.datades{
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-top: 4px;
+
+}
+.button{
+  position: absolute;
+  bottom:2%;
+  left: 1%;
+  border-radius: 12px;
+  background-color: rgba(128, 128, 128, 0.548);
+  color:white;
+  font-size: 12px;
+  padding: 12px;
+}
+.statsbutton{
+  position: absolute;
+  top:2%;
+  left: 1%;
+  border-radius: 12px;
+  background-color: rgba(235, 189, 157, 0.595);
+  color:white;
+  font-size: 12px;
+  padding: 12px;
+}
+.statsdata{
+  display: flex;
+  justify-content:space-evenly;
+}
+.statsdatavalue{
+  font-size: 12px;
+  text-align: center;
+
+}
+@media (min-width:240px) {
+  .consoleimage{
+    font-size: 32px;
+  }
+  
+}
+@media (min-width:640px) {
+  .consoleimage{
+    font-size: 48px;
+  }
+  
+}
+@media (min-width:992px) {
+  .consoleimage{
+    font-size: 12vh;
+  }
+  
+}
